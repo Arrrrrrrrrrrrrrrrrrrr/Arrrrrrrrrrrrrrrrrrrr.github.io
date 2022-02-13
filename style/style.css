@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(30, 63, 85);
+}
+
+.header-links {
+    padding: 24px 0;
+    text-align: right;
+}
+
+.header-links a {
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+}
+
+.Main-inner {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.Main {
+    background-image: url('https://www.pockettactics.com/wp-content/uploads/2021/05/genshin-impact-update-1-7-header-image.jpg');
+    color: rgb(19, 17, 31);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main-inner h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.Main-inner h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.about-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.about-inner {
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.about-inner h1 {
+    font-size: 50px;
+}
+
+.about-item img {
+    width: 40%;
+}
+
+.about-text {
+    width: 20%;
+    display: inline-block;
+}
+
+.about-text h2 {
+    font-size: 18px;
+}
+
+.about-text p {
+    font-size: 14px;
+}
+
+.about-list {
+    padding: 70px 0 55px;
+}
+
+.girls {
+    background-color: #f0f0f0;
+}
+
+.girls-inner {
+    padding: 105px 0;
+}
+
+.girls-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-nox-align: center;
+    -ms-flex-align: cenetr;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.girls-text h2 {
+    font-size: 36px;
+}
+
+.girls-text p {
+    opacity: 0.3;
+}
+
+.girls-text {
+    padding-right: 60px;
+}
+
+.girls-image {
+    width: 35%;
+}
+
+hr {
+    margin: 105px 0;
+}
+
+.girls-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.girls-item h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.video {
+    background-image: url('https://www.pcgamesn.com/wp-content/uploads/2021/05/genshin-impact-inazuma-release-date-watatsumi-island.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-inner {
+    padding: 100px 0;
+}
+
+.video-inner h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.video-inner p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.video-box {
+    background-image: url('../image/img-1.jpg');
+    background-size: cover;
+    height: 480px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -ms-flex-align: center;
+}
+
+.video-button span {
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.video-button span img {
+    margin-right: 6px;
+}
+
+.End-inner {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.End-inner img {
+    padding: 32px;
+}
+
+.End-input {
+    width: 480px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 40px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 20px 0 #999999;
+    box-shadow: 0 0 20px 0 #999999;
+}
+
+.End-input input {
+    padding: 12px 36px;
+    width: 60%;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.End-input span {
+    width: 40%;
+    padding: 12px;
+    background-color: #4985ff;
+    font-size: 16px;
+    color: white;
+}
+
+.footer {
+    background-color: #a8b8ff;
+}
+
+.footer-content {
+    padding: 70px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-item {
+    color: #9f86fa;
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-item {
+    padding: 15px 0;
+}
+
+.footer-l {
+    padding: 30px 0;
+    text-align: center;
+    border-top: 2px solid #ffffff;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    display: none;
+}
+
+.modal-close {
+    height: 10vh;
+    background-color: white;
+    text-align: right;
+}
+
+.about-inner button {
+    padding: 20px 36px;
+    background-color: rgb(77, 126, 189);
+    border: none;
+    color: rgb(13, 58, 95);
+    border-radius: 50px;
+}
+
+.video-box button {
+    padding: 20px 36px;
+    background-color: white;
+    border: none;
+    color: rgb(13, 58, 95);
+    border-radius: 50px;
+}
+
+.about-inner button:hover {
+    transform: rotate3d(1, 1, 1, 40deg);
+}
+
+.video-box button:hover {
+    transform: rotate3d(1, 1, 1, 40deg);
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: auto;
+        margin: 0 10px;
+    }
+    .Main-inner h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .Main-inner {
+        padding: 120px 0;
+    }
+    .about-inner h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .about-inner p {
+        font-size: 14px;
+    }
+    .about-item {
+        display: block;
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .about-list h2 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .about-list p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .girls-info {
+        display: block;
+    }
+    .girls-image {
+        width: 100%;
+    }
+    .girls-list {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .girls-item {
+        width: 40%;
+    }
+    .girls-text h2 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .girls-text p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .video-inner h1 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .video-inner p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .End-inner h1 {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    .End-inner p {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .header-links {
+        width: auto;
+        margin: 0 10px;
+    }
+    .footer-links {
+        width: auto;
+        margin: 0 10px;
+    }
+    .Main-inner {
+        width: auto;
+        margin: 0 auto;
+    }
+    .footer-links a {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    .footer-title {
+        font-size: 10px;
+        line-height: 30px;
+    }
+}
